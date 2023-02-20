@@ -7,4 +7,4 @@ client.login(client.config.token).then(() => {
     console.log(`Cliente iniciado sesión como ${client.user.username}`);
     client.user.setActivity(`con ${client.guilds.cache.size} servidores.`);
 })
-.catch((err) => console.log(err))
+.catch((err) => console.log(err));
